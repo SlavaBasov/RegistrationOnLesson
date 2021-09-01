@@ -11,9 +11,9 @@ public class DBConnection {
 
     static {
         PoolProperties poolProperties = new PoolProperties();
-        poolProperties.setUrl("jdbc:mysql://localhost:3306/registration");
+        poolProperties.setUrl("jdbc:mysql://localhost:3306/registronlesson");
         poolProperties.setUsername("root");
-        poolProperties.setPassword("password");
+        poolProperties.setPassword("721996qwE");
         poolProperties.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource = new DataSource(poolProperties);
     }
